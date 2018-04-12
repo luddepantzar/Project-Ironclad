@@ -167,6 +167,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Img\Konferens.jpg" />
     <Content Include="Img\test_logo.png" />
+    <Content Include="Img\test_logo_whitetxt.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
