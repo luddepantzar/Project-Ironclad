@@ -25,8 +25,16 @@ textarea {
     float:left;
 }
 #center {
-    margin: 0 auto;
+    margin: 0,auto,0,auto;
 }
 #right {
     float: right;
+}
+
+.mb-30 {
+    margin-bottom:30px;
+}
+
+.mt-60 {
+    margin-top:60px;;
 }
