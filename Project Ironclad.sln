@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project Ironclad", "Project Ironclad\Project Ironclad.csproj", "{881CDF11-5417-458E-8E9B-86071E5F20BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project Ironclad.Tests", "Project Ironclad.Tests\Project Ironclad.Tests.csproj", "{EDC3EFD9-94D2-4BA4-A842-AC8CD6F4D0A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{881CDF11-5417-458E-8E9B-86071E5F20BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{881CDF11-5417-458E-8E9B-86071E5F20BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{881CDF11-5417-458E-8E9B-86071E5F20BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{881CDF11-5417-458E-8E9B-86071E5F20BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC3EFD9-94D2-4BA4-A842-AC8CD6F4D0A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC3EFD9-94D2-4BA4-A842-AC8CD6F4D0A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC3EFD9-94D2-4BA4-A842-AC8CD6F4D0A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC3EFD9-94D2-4BA4-A842-AC8CD6F4D0A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7A5F724-B0D9-4DF6-A4E3-C70D52AE210F}
+	EndGlobalSection
+EndGlobal
