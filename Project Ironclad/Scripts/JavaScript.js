@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+﻿{
+    function RealTime() {
+        var today = new Date();
+        var h = today.getHours();
+        var m = today.getMinutes();
+
+        m = checkTime(m);
+        document.getElementById('txt').innerHTML =
+            h + ":" + m;
+        var t = setTimeout(RealTime, 500);
+    }
+    function checkTime(i) {
+        if (i < 10) { i = "0" + i };
+        return i;
+    }
+=======
 ﻿/*{
     function RealTime()
     {
@@ -16,8 +33,26 @@
     if (i < 10) {i = "0" + i}; 
         return i;
     }   
+>>>>>>> 03ae169296f3a26da59570a36f7098ee46709d25
 }
+/*
+function Hidden() {
+    document.getElementById('button1').style.visibility = 'visible';
+}
+*/
 
+
+<<<<<<< HEAD
+var hidden = false;
+function action() {
+    hidden = !hidden;
+    if (hidden) {
+        document.getElementById('togglee').style.visibility = 'visible';
+    } else {
+        document.getElementById('togglee').style.visibility = 'hidden';
+    }
+}
+=======
 {
     function Date()
     {
@@ -80,6 +115,7 @@
         document.getElementById('DateTime').innerHTML = result;
         setTimeout('TimeDate', '1000');
         return true;
+<<<<<<< HEAD
 };
 
 
@@ -89,3 +125,7 @@
         document.getElementById(button).
 }
 }
+=======
+    }
+>>>>>>> 03ae169296f3a26da59570a36f7098ee46709d25
+>>>>>>> 927b8f28c77c06f5ef80bc03615a3e218d60d8b6
