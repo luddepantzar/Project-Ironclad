@@ -80,4 +80,12 @@
         document.getElementById('DateTime').innerHTML = result;
         setTimeout('TimeDate', '1000');
         return true;
-    }
+};
+
+
+
+{
+    function MouseMovement() {
+        document.getElementById(button).
+}
+}
