@@ -38,6 +38,7 @@ textarea {
 }
 
 .mt-60 {
+<<<<<<< HEAD
     margin-top: 60px;
     ;
 }
@@ -101,3 +102,14 @@ textarea {
     */
 
 
+=======
+    margin-top:60px;;
+}
+
+.RealTime {
+    color:#fff;
+    font-size:50px;
+    margin-right:70px;
+    vertical-align:middle;
+}
+>>>>>>> 03ae169296f3a26da59570a36f7098ee46709d25
