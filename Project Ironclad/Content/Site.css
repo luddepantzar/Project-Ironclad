@@ -21,23 +21,25 @@ textarea {
     max-width: 280px;
 }
 
-#left
-{
-    float:left;
+#left {
+    float: left;
 }
+
 #center {
     margin: 0,auto,0,auto;
 }
+
 #right {
     float: right;
 }
 
 .mb-30 {
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
 .mt-60 {
-    margin-top:60px;;
+    margin-top: 60px;
+    ;
 }
 
 
@@ -97,3 +99,5 @@ textarea {
 }
 
     */
+
+

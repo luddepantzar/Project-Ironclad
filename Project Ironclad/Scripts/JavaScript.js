@@ -14,3 +14,19 @@
         return i;
     }
 }
+/*
+function Hidden() {
+    document.getElementById('button1').style.visibility = 'visible';
+}
+*/
+
+
+var hidden = false;
+function action() {
+    hidden = !hidden;
+    if (hidden) {
+        document.getElementById('togglee').style.visibility = 'visible';
+    } else {
+        document.getElementById('togglee').style.visibility = 'hidden';
+    }
+}
